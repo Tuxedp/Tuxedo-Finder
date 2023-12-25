@@ -1,0 +1,112 @@
+body{
+    background-color: #1b1b32;
+    margin: 0;
+}
+main{
+    margin: 0;
+    padding-left: 5rem;
+}
+.title{
+    background-color: #0b2168;
+    text-align: center;
+    padding: 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header{
+    top: 0;
+    position: sticky;
+}
+h1, h2, p, li, label, legend{
+    color: goldenrod;
+}
+a:visited:not(.no-link){
+    color: gold;
+}
+a:hover:not(.no-link){
+    color: purple;
+}
+a:active:not(.no-link){
+    color: goldenrod;
+}
+fieldset{
+    border: none;
+    max-width: 400px;
+    padding: 20px 0;
+}
+input[type="submit"]{
+    width: 200px;
+    height: 35px;
+    background-color: #3b3b4f;
+    border-color: whitesmoke;
+    color: whitesmoke;
+}
+input[type="submit"]:hover{
+    width: 200px;
+    height: 35px;
+    background-color: #a7a7c2;
+    border-color: whitesmoke;
+    color: whitesmoke;
+}
+input[type="color"]{
+    width: 65px;
+    height: 60px;
+}
+input, textarea{
+    border-radius: 10px 10px;
+}
+.pls{
+    border: none;
+}
+nav > ul{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  list-style-type: none;
+}
+.alt{
+    color:#0b2168
+}
+.no-link{
+    color:rgb(243, 179, 16);
+    font-size: x-large;
+}
+a.no-link{
+    text-decoration: none;
+}
+nav > ul > li:hover{
+    background-color: purple;
+    cursor: pointer;
+}
+.gallery img{
+    display: inline;
+    border: solid 3px bapurple;
+    border-radius: 10px;
+    height: 275px;
+    width: 200px;
+}
+h1{
+    font-size: 35px;
+    font-weight: 700;
+}
+h2{
+    font-size: 30px;
+}
+p, li, label, legend{
+    font-size: 25px;
+}
+input{
+    font-size: 25px;
+}
+*{
+    scroll-behavior: smooth;
+}
+label{
+    padding-bottom: 15px;
+    display: flex;
+}
+
+.hr-pls{
+    max-width: 400px;
+}
